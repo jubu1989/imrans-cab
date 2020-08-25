@@ -1,0 +1,655 @@
+
+body{
+     margin: 0;
+     padding: 0;
+     font-family: 'poppins',sans-serif;
+     font-size: 14px;
+     color: #808080;
+} 
+.d-none{
+     display: none;
+}
+.wrapper{
+     overflow: hidden;
+}
+p{
+     padding: 0;
+     margin: 0;
+}
+.mr-fm{
+     margin-right: 10px;
+     margin-left: 10px;
+}
+.border-rgt{
+     border-right: 1px solid #E6E6E6;
+}
+
+
+/* common CSS */
+.all-class-wrapper{
+     overflow: hidden;
+}
+
+/* ========== */
+.header-top{
+
+   background: #000000;
+
+}
+.hd-rgt{
+     float: right;
+}
+.hd-rgt ul{
+     display: flex;
+     padding: 15px 0px;
+     margin: 0;
+}
+.hd-rgt ul li{
+     margin-left: 45px;
+     list-style: none;
+}
+.hd-rgt ul li a{
+   text-decoration: none;
+   color: #808080;
+}
+.hd-rgt ul li a i{
+     margin-right: 6px;
+     color: rgb(236, 196, 18);
+}
+/* 
+    ===
+    Menuarea
+    ====
+     */
+.fixed-menu .menu-area{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background: #000000;
+     z-index: 11;
+}
+
+.menu-area{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     transition: .4s;
+}     
+.logo-car{
+     color:#fab702 ;
+     font-size: 24px;
+     margin-right: 3px;
+}
+.im-logo{font-size: 16px;font-weight: 900; color: #fff;}
+.cab-logo{font-size: 16px;font-weight: 900; color: #fab702;}
+
+.navbar .navbar-nav li.active a{
+     background: #fab702;
+     padding: 10px 30px;
+     border-radius: 30px;
+    font-size: 14px;
+}   
+.navbar.navbar-light .navbar-nav li a{
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px; 
+} 
+.navbar.navbar-light .navbar-nav li.active>a{
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px;
+}
+ul.navbar-nav li{
+     margin-left: 45px;
+}
+.nav-item:hover .nav-link{
+  
+     background: #fab702;
+     padding: 10px 30px;
+     border-radius: 30px;
+      font-size: 14px;
+}
+
+  
+
+/* 
+    ===
+    slider area
+    ====
+     */
+     /* .pos-slider{
+          position: relative;
+     } */
+    
+
+     .main-slider{
+         position: relative;
+          top: 0;
+          left: 0;
+          z-index: 0;
+          pointer-events: all;
+          
+          
+          /* background: rgba(0, 0, 0,2); */
+     }
+     .slider-item img{
+          width: 100%;
+          height: 100%;
+          background-size:cover ;
+     }
+     .slider-item{
+         
+          z-index: 0;
+     }
+     .slider-item:after{
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          background: rgba(0,0,0,.6);
+          z-index: 1;
+        }
+     .caption-content{
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%,-40%);
+          z-index: 2;
+     }
+     .caption-content h2{
+          margin-bottom: 20px;
+          font-size: 64px;
+          font-weight: 600;
+          color: white;
+          text-transform: capitalize;
+     }
+     .caption-content p{
+          text-align: center;
+          font-size: 16px;
+          color:#fab702 ;
+          text-transform: uppercase;
+         
+     }
+    .false-div{
+        clear: both;
+        position: relative;
+    }
+    .slide-btn {
+     background: #fab702;
+     color: white;
+     padding: 10px 50px;
+     margin-top: 20px;
+     text-align: center;
+     border-radius: 30px;
+ }
+
+     .slider-arrow .left-arrow,
+     .slider-arrow .right-arrow{
+       position: absolute;
+       top: 50%;
+       font-size: 40px;
+       transform: translateY(-50%);
+      
+      
+     }
+     
+     .slider-arrow .left-arrow {
+       left: 30px;
+     } 
+     .right-arrow  {
+       right: 30px;
+       color: white;
+     } 
+     .left-arrow a,
+     .right-arrow a{
+       color: white;
+       
+     }
+     .left-arrow a:hover,
+     .right-arrow a:hover{
+       color:#fab702 ;
+     }
+
+     /* booking form AREA */
+     .form-area{
+          position: relative;
+          top: -440px;
+          left: 0;
+     }
+   
+     .form-group{
+         display:inline-block;
+         margin-right: 20px;
+         width: 100%;
+     }
+   
+     .start-destination {
+          position: relative;
+     }
+     .start-destination::after {
+          position: absolute;
+          content: "\f5a0";
+          top: 15px;
+          left: 10px;
+          font-family: "Font Awesome 5 free";
+          font-weight: 900;
+          font-size: 16px;
+      }
+     .date-pick{
+           position: relative;
+      }
+     .date-pick::after {
+          position: absolute;
+          content: "\f017";
+          top: 15px;
+          left: 10px;
+          font-family: "Font Awesome 5 free";
+          font-weight: 900;
+          font-size: 16px;
+      }
+      .seat-select{
+          position: relative;
+     }
+     .seat-select::after {
+          position: absolute;
+          content: "\f4b8";
+          top: 15px;
+          left: 10px;
+          font-family: "Font Awesome 5 free";
+          font-weight: 900;
+          font-size: 16px;
+      }
+      .phone-number{
+          position: relative;
+     }
+     .phone-number::after {
+          position: absolute;
+          content: "\f879";
+          top: 15px;
+          left: 10px;
+          font-family: "Font Awesome 5 free";
+          font-weight: 900;
+          font-size: 16px;
+      } 
+
+    
+     .form-control {
+          display: block;
+          width: 200px;
+          height: 55px;
+          padding-left: 30px;
+         
+         /* border-radius: 30px; */
+  }
+  .button-area{
+       text-align: center;
+  }
+ /* 
+ ==================
+ welcome area
+ =====================
+  */
+  .welcome-offer{
+       text-align: center;
+       margin-bottom: 80px;
+  }
+  .welcome-heading{
+     margin-bottom: 80px;
+  }
+  .welcome-heading h6{
+     color: #fab702;
+       font-size: 1.2rem;
+  }
+  .welcome-heading h2{
+     color: #343332;
+     font-size: 46px;
+     font-weight: 900;
+     margin-top: 30px;
+     margin-bottom: 30px;
+  }
+  .welcome-heading p{
+      
+     
+  }
+  .offer-icon i{
+       font-size: 46px;
+       font-weight: 600;
+       color: #fab702;
+  }
+  .offer-heading a{
+       text-decoration: none;
+       color: #000000;
+       font-size: 1.5rem;
+       font-weight: 700;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       display: block;
+  }
+  .offer-heading a:hover{
+     color: #fab702;
+  }
+  .get-a-cab{
+       background: url(../img/get-acab.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       text-align: center;
+       position: relative;
+     
+  }
+  .get-a-cab::after{
+       position: absolute;
+       content: " ";
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background: rgba(250,183,2,.3);
+       z-index: 0;
+
+  }
+  .get-a-cab .welcome-heading h2{
+       color: #fab702;
+     padding-top: 100px;
+     margin-bottom: 0;
+     position: relative;
+  }
+  .get-a-cab .welcome-heading{
+       margin-bottom: 10px;
+       z-index: 1;
+       position: relative;
+  }
+  .get-a-cab .button-area{
+     padding-bottom: 100px;
+     z-index: 1;
+     position: relative;
+  }
+
+  /* our besnifits area */
+  .our-benifits{
+       text-align: center;
+       margin-top: 50px;
+  }
+  .benifits-heading h6{
+     color: #fab702;
+     font-size: 1.2rem; 
+  }
+  .benifits-heading h2{
+     color: #343332;
+     font-size: 46px;
+     font-weight: 900;
+     margin-top: 30px;
+     margin-bottom: 30px;
+  }
+.mid-img img{
+     width: 100%;
+
+}
+.benifits-content{
+display: flex;
+margin-top: 100px;
+}
+.benifit-icon {
+     margin-right: 15px;
+    
+}
+.benifit-icon i{
+     width: 50px;
+     height: 50px;
+     background: #fab702;
+     border-radius: 50%;
+     color: #fff;
+     font-size: 16px;
+     padding: 17px 10px;
+}
+.benifit-text{
+     text-align: start;
+     float: right;
+}
+
+/* 
+==========
+choose car
+==========
+ */
+ .choose-car{
+     background: url(../img/car-info.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     position: relative;
+     z-index: 2;
+     margin-bottom: 80px;
+   
+}
+.choose-car::after{
+     position: absolute;
+     content: " ";
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0,0,0,.6);
+     z-index: 0;
+
+}
+ .choose-car-heading{
+      padding-top: 80px;
+      margin-bottom: 80px;
+      z-index: 3;
+      position: relative;
+
+     
+ }
+ .choose-car-heading h6{
+      color: #fab702;
+     
+ }
+ .choose-car-heading h2{
+     color: #fff;
+     font-size: 3rem;
+     font-weight: 700;
+   
+ }
+ .choose-car{
+      text-align: center;
+ }
+ .car-list{
+      background: #272727;
+      margin-bottom: 80px;
+      position: relative;
+      z-index: 3;
+ }
+ .car-list:hover{
+     background: #fab702;
+ }
+ .car-list:hover i{
+     border: 10px solid #fab702 ;  
+ }
+ .car-list:hover .fare-rate{
+     color: #fff;
+ }
+ .car-list-icon {
+     position: relative;
+     left: 0;
+     top: -50px;
+     }
+ .car-list-icon i{
+      background: #fab702;
+      color: #fff;
+      font-size: 2rem;
+      padding: 30px 30px;
+      border-radius: 50%;
+      border: 10px solid #272727 ;
+    
+   
+ }
+ .car-list-content h4{
+      color: #fff;
+      font-weight: 600;
+ }
+ .car-text{
+      color: #fff;
+      font-size: 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+ }
+ .fare-rate{
+      color: #fab702;
+      padding-bottom: 30px;
+      font-size: 16px;
+      font-weight: 900;
+ }
+ /* 
+ ==========
+ querry
+ ==========
+  */
+  .querry-area{
+       background: #F7F7F7;
+       padding-top: 130px;
+       padding-bottom: 150px;
+  }
+  .querry .form-control{
+       width: 100%;
+  }
+  /*
+  ==========
+   footer area
+   ===========
+    */
+    .footer{
+         background: #000000;
+         text-align: center;
+         padding-top: 100px;
+         padding-bottom: 50px;
+    }
+    .widget{
+         text-align: start;
+    }
+    .wid-heading a{
+         text-decoration: none;
+      
+         
+    }
+    .wid-heading h4{
+         color: #fff;
+    }
+    .wid-content{
+         padding-top: 25px;
+    }
+    .wid-content p{
+         text-align: justify;
+    }
+    .wid-content ul{
+         padding: 0;
+         margin: 0;
+    }
+    .wid-content ul li{
+         list-style: none;
+         margin-left: 10px;
+         padding-bottom: 10px;
+    }
+    .wid-content ul li a{
+         color: #fff;
+         text-decoration: none;
+    }
+    .wid-content ul li a i{
+         margin-right: 10px;
+         color: #fab702;
+         font-size: 16px;
+        
+    }
+    .wid-content h6{
+         color: #fff;
+    }
+    .inp-box{
+     position: relative;
+}
+.inp-box::after{
+     position: absolute;
+     content: "\f124";
+     top: 8px;
+     right: 20px;
+     font-family: "Font Awesome 5 free";
+     font-weight: 900;
+     font-size: 18px;
+     pointer-events: none;
+}
+    .inp-box .form-control{
+         width: 100%;
+         height: 40px;
+         border-radius: 30px;
+    }
+    input[type='email']{
+     padding-right: 60px;
+    }
+    .subscribe-btn{
+         
+         position: absolute;
+         top: 10px;
+         right: 5px;
+         font-size: 0;
+         height: 20px;
+         width: 50px;
+    }
+.check-box {
+     padding-top: 15px;
+   display: flex;
+}
+.check-box p{
+     margin-left: 10px;
+}
+.ft-hr{
+     background: rosybrown;
+}
+.ft-bt{
+     display: flex;
+     justify-content: space-between;
+}
+.social-area ul li{
+     float: left;
+     list-style: none;
+   
+     margin-right: 20px;
+     margin-left: 20px;
+}
+.social-area ul li a:hover i{
+color: #fab702;
+transform: rotate(360deg);
+}
+.social-area ul li a{
+     text-decoration: none;
+}
+.social-area ul li a i{
+     color: #fff;
+     font-size: 24px;
+     font-weight: 600;
+     transition: .3s;
+}
+.scrollbar{
+     width: 50px;
+     height: 50px;
+     background: #fab702;
+     position: fixed;
+     right: 50px;
+     bottom: 40px;
+     z-index: 1000;
+}
+.scrollbar a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 24px;
+     font-weight: 600;
+}
+.scrollbar a i {
+     padding: 15px;
+ }
+    
+

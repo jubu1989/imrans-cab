@@ -1,0 +1,369 @@
+@media (max-width: 320px){
+   .hd-rgt ul li {
+      margin-left: 20px;
+      list-style: none;
+      margin-right: 20px;
+  }
+   .hd-rgt ul li a {
+      text-decoration: none;
+      color: #808080;
+      font-size: 10px;
+  }
+  .navbar-toggler-icon {
+   background: #FAB702;
+}
+  .caption-content p {
+   text-align: center;
+   font-size: 10px;
+   color: #fab702;
+   text-transform: uppercase;
+}
+  .caption-content h2 {
+   margin-bottom: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   color: white;
+   text-transform: capitalize;
+}
+.slider-arrow .left-arrow {
+   left: 0px;
+}
+.right-arrow {
+   right: 0px;
+   color: white;
+}
+.d-none{
+   display:contents;
+}
+   .form-area {
+      position: relative;
+      top: 10px;
+      left: 0;
+  }
+  .form-control {
+   width: 100%;   
+  
+}
+.welcome-heading {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.welcome-heading h6 {
+   color: #fab702;
+   font-size: 1rem;
+}
+.welcome-heading h2 {
+   color: #343332;
+   font-size: 30px;
+   font-weight: 900;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.welcome-offer {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.get-a-cab .welcome-heading h2 {
+   color: #fab702;
+   padding-top: 20px;
+   margin-bottom: 0;
+   position: relative;
+}
+.get-a-cab .button-area {
+   padding-bottom: 20px;
+   z-index: 1;
+   position: relative;
+}
+.benifits-content {
+   display: flex;
+   margin-top: 25px;
+}
+.choose-car-heading h2 {
+   color: #fff;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+
+.scrollbar {
+   width: 30px;
+   height: 30px;
+   background: #fab702;
+   position: fixed;
+   right: 10px;
+   bottom: 40px;
+   z-index: 1000;
+}
+.scrollbar a i {
+   padding: 5px 8px;
+}
+}
+
+@media (max-width: 375px) and ( min-width:321px){
+
+      .hd-rgt ul li {
+         margin-left: 20px;
+         list-style: none;
+         margin-right: 20px;
+     }
+      .hd-rgt ul li a {
+         text-decoration: none;
+         color: #808080;
+         font-size: 10px;
+     }
+     .navbar-toggler-icon {
+      background: #FAB702;
+   }
+     .caption-content p {
+      text-align: center;
+      font-size: 10px;
+      color: #fab702;
+      text-transform: uppercase;
+   }
+     .caption-content h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      text-transform: capitalize;
+   }
+   .slider-arrow .left-arrow {
+      left: 0px;
+   }
+   .right-arrow {
+      right: 0px;
+      color: white;
+   }
+   .d-none{
+      display:contents;
+   }
+      .form-area {
+         position: relative;
+         top: 10px;
+         left: 0;
+     }
+     .form-control {
+      width: 100%;   
+     
+   }
+   .welcome-heading {
+      margin-bottom: 20px;
+      margin-top: 20px;
+   }
+   .welcome-heading h6 {
+      color: #fab702;
+      font-size: 1rem;
+   }
+   .welcome-heading h2 {
+      color: #343332;
+      font-size: 30px;
+      font-weight: 900;
+      margin-top: 10px;
+      margin-bottom: 20px;
+   }
+   .welcome-offer {
+      text-align: center;
+      margin-bottom: 20px;
+   }
+   .get-a-cab .welcome-heading h2 {
+      color: #fab702;
+      padding-top: 20px;
+      margin-bottom: 0;
+      position: relative;
+   }
+   .get-a-cab .button-area {
+      padding-bottom: 20px;
+      z-index: 1;
+      position: relative;
+   }
+   .benifits-content {
+      display: flex;
+      margin-top: 25px;
+   }
+   .choose-car-heading h2 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+   }
+   
+   
+   .scrollbar {
+      width: 30px;
+      height: 30px;
+      background: #fab702;
+      position: fixed;
+      right: 10px;
+      bottom: 40px;
+      z-index: 1000;
+   }
+   .scrollbar a i {
+      padding: 5px 8px;
+   }
+   
+}
+@media (max-width: 425px) and ( min-width:376px){
+   .hd-rgt ul li {
+      margin-left: 20px;
+      list-style: none;
+      margin-right: 20px;
+  }
+   .hd-rgt ul li a {
+      text-decoration: none;
+      color: #808080;
+      font-size: 10px;
+  }
+  .navbar-toggler-icon {
+   background: #FAB702;
+}
+  .caption-content p {
+   text-align: center;
+   font-size: 10px;
+   color: #fab702;
+   text-transform: uppercase;
+}
+  .caption-content h2 {
+   margin-bottom: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   color: white;
+   text-transform: capitalize;
+}
+.slider-arrow .left-arrow {
+   left: 0px;
+}
+.right-arrow {
+   right: 0px;
+   color: white;
+}
+.d-none{
+   display:contents;
+}
+   .form-area {
+      position: relative;
+      top: 10px;
+      left: 0;
+  }
+  .form-control {
+   width: 100%;   
+  
+}
+.welcome-heading {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.welcome-heading h6 {
+   color: #fab702;
+   font-size: 1rem;
+}
+.welcome-heading h2 {
+   color: #343332;
+   font-size: 30px;
+   font-weight: 900;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.welcome-offer {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.get-a-cab .welcome-heading h2 {
+   color: #fab702;
+   padding-top: 20px;
+   margin-bottom: 0;
+   position: relative;
+}
+.get-a-cab .button-area {
+   padding-bottom: 20px;
+   z-index: 1;
+   position: relative;
+}
+.benifits-content {
+   display: flex;
+   margin-top: 25px;
+}
+.choose-car-heading h2 {
+   color: #fff;
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+
+.scrollbar {
+   width: 30px;
+   height: 30px;
+   background: #fab702;
+   position: fixed;
+   right: 10px;
+   bottom: 40px;
+   z-index: 1000;
+}
+.scrollbar a i {
+   padding: 5px 8px;
+}
+
+}
+@media (max-width:768px) and ( min-width:426px){
+   .caption-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 2;
+  }
+ 
+  .caption-content h2 {
+   margin-bottom: 20px;
+   font-size: 30px;
+   font-weight: 600;
+   color: white;
+   text-transform: capitalize;
+}
+   .form-area {
+      position: relative;
+      top: 50px;
+      left: 0;
+  }
+  .form-area{
+     display: flex;
+
+  }
+  .form-control {
+   display: block;
+   width: 100%;
+   height: 55px;
+   padding-left: 30px;
+   /* border-radius: 30px; */
+}
+.mr-fm{
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
+
+.form-group{
+  display:inline-block;
+  margin-right: 20px;
+  width: 100%;
+}
+}
+@media (max-width:1024px) and ( min-width:767px){
+   .caption-content h2 {
+      margin-bottom: 20px;
+      font-size: 58px;
+      font-weight: 600;
+      color: white;
+      text-transform: capitalize;
+  }
+   .form-area {
+      position: relative;
+      top: -300px;
+      left: 0;
+  }
+  .form-control {
+   display: block;
+   width: 180px;
+   height: 55px;
+   padding-left: 30px;
+   /* border-radius: 30px; */
+}
+}
